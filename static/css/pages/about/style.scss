@@ -1,0 +1,81 @@
+.about-wrapper {
+    background-image: url('../../assets/img/about/about-background-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+  
+  .coin {
+    width: 386px;
+    height: 396px;
+    object-fit: contain;
+  }
+  
+  .about-text {
+    font-family: 'Akira' !important;
+    color: #ffffff;
+  }
+  
+  .mint-badge-btn {
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    padding: 12px 40px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  .mint-link {
+    height: 100%;
+  }
+  .btn-mint-link-ranker-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    // height: auto;
+    height: 57px;
+    padding: 2.5px 0;
+    background-color: #ffffff;
+  }
+  .mint-link-ranker-page-image {
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .about-paragraph {
+    width: 265px;
+    align-self: center;
+    text-align: justify;
+  }
+  
+  .rankers-badge-title {
+    margin: 74px 0 36px 0;
+  }
+  
+  .disclaimer-text {
+    width: 240px;
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .about-wrapper {
+      background-image: url('../../assets/img/about/about-background.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      object-fit: cover;
+    }
+    .about-paragraph {
+      width: 720px;
+      align-self: center;
+      text-align: justify;
+    }
+    .rankers-badge-title {
+      margin: 124px 0 80px 0;
+    }
+    .btn-mint-link-ranker-page {
+      width: 160px;
+      height: 73px;
+    }
+  }
+  
